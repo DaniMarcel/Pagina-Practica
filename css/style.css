@@ -1,0 +1,137 @@
+body {
+  background-color: #f8f8f8;
+}
+
+nav .container-fluid a #logo-pokebola {
+  width: 50px;
+  height: 50px;
+  background: url(../img/pokebola.png) no-repeat;
+  background-size: 50px 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: #f8f8f8;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+#carouselExample .img-carousel {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #000;
+}
+p {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card .card-body button img {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.card .card-body button:hover {
+  background-color: rgb(109, 180, 109);
+}
+
+footer a i img {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul li #img-carrito {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+  color: #000;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+#vaciar-carrito{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.borrar-producto {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+/* form buscador */
+.contenedor {
+  background-color: rgb(33, 22, 22);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
